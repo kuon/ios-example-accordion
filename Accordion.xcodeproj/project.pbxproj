@@ -22,14 +22,14 @@
 		36910AB2152CDA510093E656 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		36910AB4152CDA510093E656 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		36910AB6152CDA510093E656 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		36910ABA152CDA510093E656 /* Accordion-Info.plist */ = {isa = PBXFileReference; path = "Accordion-Info.plist"; sourceTree = "<group>"; };
+		36910ABA152CDA510093E656 /* Accordion-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Accordion-Info.plist"; sourceTree = "<group>"; };
 		36910ABC152CDA510093E656 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		36910ABE152CDA510093E656 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		36910AC0152CDA510093E656 /* Accordion-Prefix.pch */ = {isa = PBXFileReference; path = "Accordion-Prefix.pch"; sourceTree = "<group>"; };
-		36910AC1152CDA510093E656 /* GNAppDelegate.h */ = {isa = PBXFileReference; path = GNAppDelegate.h; sourceTree = "<group>"; };
+		36910AC0152CDA510093E656 /* Accordion-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Accordion-Prefix.pch"; sourceTree = "<group>"; };
+		36910AC1152CDA510093E656 /* GNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GNAppDelegate.h; sourceTree = "<group>"; };
 		36910AC2152CDA510093E656 /* GNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GNAppDelegate.m; sourceTree = "<group>"; };
 		36910AC5152CDA510093E656 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		36910AC7152CDA510093E656 /* GNViewController.h */ = {isa = PBXFileReference; path = GNViewController.h; sourceTree = "<group>"; };
+		36910AC7152CDA510093E656 /* GNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GNViewController.h; sourceTree = "<group>"; };
 		36910AC8152CDA510093E656 /* GNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GNViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
