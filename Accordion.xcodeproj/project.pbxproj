@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36910AB3152CDA510093E656 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36910AB2152CDA510093E656 /* UIKit.framework */; };
+		36910AB5152CDA510093E656 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36910AB4152CDA510093E656 /* Foundation.framework */; };
+		36910AB7152CDA510093E656 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36910AB6152CDA510093E656 /* CoreGraphics.framework */; };
+		36910ABD152CDA510093E656 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36910ABB152CDA510093E656 /* InfoPlist.strings */; };
+		36910ABF152CDA510093E656 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36910ABE152CDA510093E656 /* main.m */; };
+		36910AC3152CDA510093E656 /* GNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36910AC2152CDA510093E656 /* GNAppDelegate.m */; };
+		36910AC6152CDA510093E656 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36910AC4152CDA510093E656 /* MainStoryboard.storyboard */; };
+		36910AC9152CDA510093E656 /* GNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36910AC8152CDA510093E656 /* GNViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36910AAE152CDA510093E656 /* Accordion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Accordion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36910AB2152CDA510093E656 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		36910AB4152CDA510093E656 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		36910AB6152CDA510093E656 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		36910ABA152CDA510093E656 /* Accordion-Info.plist */ = {isa = PBXFileReference; path = "Accordion-Info.plist"; sourceTree = "<group>"; };
+		36910ABC152CDA510093E656 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36910ABE152CDA510093E656 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36910AC0152CDA510093E656 /* Accordion-Prefix.pch */ = {isa = PBXFileReference; path = "Accordion-Prefix.pch"; sourceTree = "<group>"; };
+		36910AC1152CDA510093E656 /* GNAppDelegate.h */ = {isa = PBXFileReference; path = GNAppDelegate.h; sourceTree = "<group>"; };
+		36910AC2152CDA510093E656 /* GNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GNAppDelegate.m; sourceTree = "<group>"; };
+		36910AC5152CDA510093E656 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		36910AC7152CDA510093E656 /* GNViewController.h */ = {isa = PBXFileReference; path = GNViewController.h; sourceTree = "<group>"; };
+		36910AC8152CDA510093E656 /* GNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GNViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36910AAB152CDA510093E656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36910AB3152CDA510093E656 /* UIKit.framework in Frameworks */,
+				36910AB5152CDA510093E656 /* Foundation.framework in Frameworks */,
+				36910AB7152CDA510093E656 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36910AA3152CDA510093E656 = {
+			isa = PBXGroup;
+			children = (
+				36910AB8152CDA510093E656 /* Accordion */,
+				36910AB1152CDA510093E656 /* Frameworks */,
+				36910AAF152CDA510093E656 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36910AAF152CDA510093E656 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36910AAE152CDA510093E656 /* Accordion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36910AB1152CDA510093E656 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36910AB2152CDA510093E656 /* UIKit.framework */,
+				36910AB4152CDA510093E656 /* Foundation.framework */,
+				36910AB6152CDA510093E656 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36910AB8152CDA510093E656 /* Accordion */ = {
+			isa = PBXGroup;
+			children = (
+				36910AC1152CDA510093E656 /* GNAppDelegate.h */,
+				36910AC2152CDA510093E656 /* GNAppDelegate.m */,
+				36910AC4152CDA510093E656 /* MainStoryboard.storyboard */,
+				36910AC7152CDA510093E656 /* GNViewController.h */,
+				36910AC8152CDA510093E656 /* GNViewController.m */,
+				36910AB9152CDA510093E656 /* Supporting Files */,
+			);
+			path = Accordion;
+			sourceTree = "<group>";
+		};
+		36910AB9152CDA510093E656 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36910ABA152CDA510093E656 /* Accordion-Info.plist */,
+				36910ABB152CDA510093E656 /* InfoPlist.strings */,
+				36910ABE152CDA510093E656 /* main.m */,
+				36910AC0152CDA510093E656 /* Accordion-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36910AAD152CDA510093E656 /* Accordion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36910ACC152CDA510093E656 /* Build configuration list for PBXNativeTarget "Accordion" */;
+			buildPhases = (
+				36910AAA152CDA510093E656 /* Sources */,
+				36910AAB152CDA510093E656 /* Frameworks */,
+				36910AAC152CDA510093E656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Accordion;
+			productName = Accordion;
+			productReference = 36910AAE152CDA510093E656 /* Accordion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36910AA5152CDA510093E656 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GN;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Goyman.com SA";
+			};
+			buildConfigurationList = 36910AA8152CDA510093E656 /* Build configuration list for PBXProject "Accordion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 36910AA3152CDA510093E656;
+			productRefGroup = 36910AAF152CDA510093E656 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36910AAD152CDA510093E656 /* Accordion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36910AAC152CDA510093E656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36910ABD152CDA510093E656 /* InfoPlist.strings in Resources */,
+				36910AC6152CDA510093E656 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36910AAA152CDA510093E656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36910ABF152CDA510093E656 /* main.m in Sources */,
+				36910AC3152CDA510093E656 /* GNAppDelegate.m in Sources */,
+				36910AC9152CDA510093E656 /* GNViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		36910ABB152CDA510093E656 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36910ABC152CDA510093E656 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		36910AC4152CDA510093E656 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36910AC5152CDA510093E656 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36910ACA152CDA510093E656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36910ACB152CDA510093E656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36910ACD152CDA510093E656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Accordion/Accordion-Prefix.pch";
+				INFOPLIST_FILE = "Accordion/Accordion-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		36910ACE152CDA510093E656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Accordion/Accordion-Prefix.pch";
+				INFOPLIST_FILE = "Accordion/Accordion-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36910AA8152CDA510093E656 /* Build configuration list for PBXProject "Accordion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36910ACA152CDA510093E656 /* Debug */,
+				36910ACB152CDA510093E656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36910ACC152CDA510093E656 /* Build configuration list for PBXNativeTarget "Accordion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36910ACD152CDA510093E656 /* Debug */,
+				36910ACE152CDA510093E656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36910AA5152CDA510093E656 /* Project object */;
+}
