@@ -1,3 +1,14 @@
+
+# THIS REPOSITORY HAS MOVED
+
+New URL: https://git.goyman.com/kuon/ios-example-accordion
+
+Why I moved everything out of GitHub:
+
+https://github.com/kuon/WhyILeftGithub/blob/main/README.md
+
+----
+
 # THIS REPOSITORY HAS MOVED
 
 New URL: https://git.goyman.com/kuon/ios-example-accordion
